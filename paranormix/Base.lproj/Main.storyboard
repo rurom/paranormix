@@ -30,12 +30,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vV8-07-E9c">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dark_ghost" translatesAutoresizingMaskIntoConstraints="NO" id="Ssn-9v-6WJ">
-                                        <rect key="frame" x="283" y="20" width="82" height="53"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="82" id="u2n-20-WTX"/>
-                                            <constraint firstAttribute="height" constant="53" id="zHk-3C-cET"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray_moon_1_1" translatesAutoresizingMaskIntoConstraints="NO" id="FIR-T3-bou">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmK-pZ-3mO" customClass="MaterialView" customModule="paranormix" customModuleProvider="target">
                                         <rect key="frame" x="15" y="75" width="345" height="129"/>
@@ -87,17 +83,28 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dark_ghost" translatesAutoresizingMaskIntoConstraints="NO" id="Ssn-9v-6WJ">
+                                        <rect key="frame" x="324" y="18" width="53" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="53" id="hTs-Bc-ewO"/>
+                                            <constraint firstAttribute="height" constant="34" id="xda-1B-umy"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40392156862745099" green="0.22745098039215686" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="FIR-T3-bou" secondAttribute="trailing" id="4wV-nf-DYT"/>
                                     <constraint firstItem="w6U-JJ-EEI" firstAttribute="leading" secondItem="vV8-07-E9c" secondAttribute="leading" constant="20" id="HYd-71-VrV"/>
-                                    <constraint firstItem="Ssn-9v-6WJ" firstAttribute="top" secondItem="vV8-07-E9c" secondAttribute="top" constant="20" id="PtY-jd-78Q"/>
+                                    <constraint firstItem="FIR-T3-bou" firstAttribute="leading" secondItem="vV8-07-E9c" secondAttribute="leading" id="K1Y-Ph-aID"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ssn-9v-6WJ" secondAttribute="trailing" constant="-2" id="TlL-J2-k0c"/>
+                                    <constraint firstItem="Ssn-9v-6WJ" firstAttribute="top" secondItem="vV8-07-E9c" secondAttribute="top" constant="18" id="UPd-bw-PZO"/>
+                                    <constraint firstAttribute="bottom" secondItem="FIR-T3-bou" secondAttribute="bottom" id="ZHp-w0-Mza"/>
                                     <constraint firstItem="qmK-pZ-3mO" firstAttribute="top" secondItem="vV8-07-E9c" secondAttribute="top" constant="75" id="a2P-iE-3sx"/>
                                     <constraint firstItem="qmK-pZ-3mO" firstAttribute="leading" secondItem="vV8-07-E9c" secondAttribute="leading" constant="15" id="eAi-9e-9uR"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ssn-9v-6WJ" secondAttribute="trailing" constant="10" id="faq-El-fox"/>
                                     <constraint firstAttribute="height" constant="128" id="gol-N7-G7D"/>
                                     <constraint firstItem="w6U-JJ-EEI" firstAttribute="top" secondItem="vV8-07-E9c" secondAttribute="top" constant="45" id="qgL-CN-Fae"/>
                                     <constraint firstAttribute="trailing" secondItem="qmK-pZ-3mO" secondAttribute="trailing" constant="15" id="vR1-h9-6pR"/>
+                                    <constraint firstItem="FIR-T3-bou" firstAttribute="top" secondItem="vV8-07-E9c" secondAttribute="top" id="w99-Kr-5xJ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zN0-Ls-vTB" customClass="MaterialView" customModule="paranormix" customModuleProvider="target">
@@ -138,14 +145,14 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIF-CL-Q2Q" customClass="MaterialButton" customModule="paranormix" customModuleProvider="target">
                                         <rect key="frame" x="73" y="201" width="198" height="33"/>
-                                        <color key="backgroundColor" red="0.40392156862745099" green="0.22745098039215686" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.15294117647058825" green="0.15294117647058825" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="198" id="0Q0-du-3Nv"/>
                                             <constraint firstAttribute="height" constant="33" id="VUk-4u-qog"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Nightbird" family="Nightbird" pointSize="19"/>
                                         <state key="normal" title="LOGIN / SIGN UP">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="1" green="1" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -168,7 +175,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zN0-Ls-vTB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0un-nh-PcJ"/>
                             <constraint firstAttribute="trailing" secondItem="vV8-07-E9c" secondAttribute="trailing" id="B5p-lq-ANA"/>
@@ -189,5 +196,6 @@
         <image name="blackwood_1" width="620" height="330"/>
         <image name="dark_ghost" width="107" height="128"/>
         <image name="facebook-icon" width="256" height="256"/>
+        <image name="gray_moon_1_1" width="900" height="534"/>
     </resources>
 </document>

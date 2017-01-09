@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EF51959ACE33E876841EA9F /* Pods_paranormix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FE9AC69C86FD722A61F38B /* Pods_paranormix.framework */; };
 		932B28BA1E21C3FF0001C670 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932B28B91E21C3FF0001C670 /* MaterialButton.swift */; };
 		932B28BC1E229CE40001C670 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932B28BB1E229CE40001C670 /* MaterialTextField.swift */; };
 		93AC76361E0BC54900500897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC76351E0BC54900500897 /* AppDelegate.swift */; };
@@ -26,9 +27,14 @@
 		93AC76601E0BE07000500897 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AC765F1E0BE07000500897 /* Constants.swift */; };
 		93D5B24E1E231A5500B2F87D /* Nightbird.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93D5B24D1E231A5500B2F87D /* Nightbird.ttf */; };
 		93D5B2521E2322D100B2F87D /* MaterialImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5B2511E2322D100B2F87D /* MaterialImage.swift */; };
+		93D5B2571E23366400B2F87D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D5B2541E23366400B2F87D /* Bolts.framework */; };
+		93D5B2581E23366400B2F87D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D5B2551E23366400B2F87D /* FBSDKCoreKit.framework */; };
+		93D5B2591E23366400B2F87D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D5B2561E23366400B2F87D /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29FE9AC69C86FD722A61F38B /* Pods_paranormix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paranormix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3C7C2313FCF054DD9208A7 /* Pods-paranormix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paranormix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-paranormix/Pods-paranormix.debug.xcconfig"; sourceTree = "<group>"; };
 		932B28B91E21C3FF0001C670 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		932B28BB1E229CE40001C670 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		93AC76321E0BC54900500897 /* paranormix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paranormix.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +56,10 @@
 		93AC765F1E0BE07000500897 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		93D5B24D1E231A5500B2F87D /* Nightbird.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nightbird.ttf; sourceTree = "<group>"; };
 		93D5B2511E2322D100B2F87D /* MaterialImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialImage.swift; sourceTree = "<group>"; };
+		93D5B2541E23366400B2F87D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		93D5B2551E23366400B2F87D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		93D5B2561E23366400B2F87D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E44A717D27AAE65A2CAF79D1 /* Pods-paranormix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paranormix.release.xcconfig"; path = "Pods/Target Support Files/Pods-paranormix/Pods-paranormix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +67,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D5B2571E23366400B2F87D /* Bolts.framework in Frameworks */,
+				93D5B2581E23366400B2F87D /* FBSDKCoreKit.framework in Frameworks */,
+				93D5B2591E23366400B2F87D /* FBSDKLoginKit.framework in Frameworks */,
+				1EF51959ACE33E876841EA9F /* Pods_paranormix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28B8B8481E3D88D6D20AAE76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3C7C2313FCF054DD9208A7 /* Pods-paranormix.debug.xcconfig */,
+				E44A717D27AAE65A2CAF79D1 /* Pods-paranormix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		93AC76291E0BC54900500897 = {
 			isa = PBXGroup;
 			children = (
 				93AC76341E0BC54900500897 /* paranormix */,
 				93AC76331E0BC54900500897 /* Products */,
+				28B8B8481E3D88D6D20AAE76 /* Pods */,
+				C765A93C3F9A70AC2834CDE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +107,7 @@
 		93AC76341E0BC54900500897 /* paranormix */ = {
 			isa = PBXGroup;
 			children = (
+				93D5B2531E23362B00B2F87D /* Frameworks */,
 				93AC765E1E0BE04900500897 /* Util */,
 				93AC764B1E0BC71D00500897 /* Resources */,
 				93AC76491E0BC6DC00500897 /* Model */,
@@ -146,6 +172,24 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		93D5B2531E23362B00B2F87D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93D5B2541E23366400B2F87D /* Bolts.framework */,
+				93D5B2551E23366400B2F87D /* FBSDKCoreKit.framework */,
+				93D5B2561E23366400B2F87D /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C765A93C3F9A70AC2834CDE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FE9AC69C86FD722A61F38B /* Pods_paranormix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93AC76441E0BC54900500897 /* Build configuration list for PBXNativeTarget "paranormix" */;
 			buildPhases = (
+				EDC1AA3B9426FA52E6748575 /* [CP] Check Pods Manifest.lock */,
 				93AC762E1E0BC54900500897 /* Sources */,
 				93AC762F1E0BC54900500897 /* Frameworks */,
 				93AC76301E0BC54900500897 /* Resources */,
+				485D0FCB421F2717AA25AFB6 /* [CP] Embed Pods Frameworks */,
+				19EDF7BB17118DE45AE0BC69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +268,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EDF7BB17118DE45AE0BC69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-paranormix/Pods-paranormix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485D0FCB421F2717AA25AFB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-paranormix/Pods-paranormix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC1AA3B9426FA52E6748575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		93AC762E1E0BC54900500897 /* Sources */ = {
@@ -354,8 +449,13 @@
 		};
 		93AC76451E0BC54900500897 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3C7C2313FCF054DD9208A7 /* Pods-paranormix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paranormix",
+				);
 				INFOPLIST_FILE = paranormix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = roman.rudavskiy.paranormix;
@@ -366,8 +466,13 @@
 		};
 		93AC76461E0BC54900500897 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44A717D27AAE65A2CAF79D1 /* Pods-paranormix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paranormix",
+				);
 				INFOPLIST_FILE = paranormix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = roman.rudavskiy.paranormix;
