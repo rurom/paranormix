@@ -41,5 +41,17 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSans-Bold.ttf</string>
+		<string>NotoSans-BoldItalic.ttf</string>
+		<string>NotoSans-Italic.ttf</string>
+		<string>NotoSans-Regular.ttf</string>
+		<string>NotoSansUI-Bold.ttf</string>
+		<string>NotoSansUI-BoldItalic.ttf</string>
+		<string>NotoSansUI-Italic.ttf</string>
+		<string>NotoSansUI-Regular.ttf</string>
+		<string>Nightbird.ttf</string>
+	</array>
 </dict>
 </plist>
